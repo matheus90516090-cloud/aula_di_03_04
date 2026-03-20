@@ -1,0 +1,31 @@
+*{
+    /*bloco de reset*/
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; /*cor em hexadecimal*/
+}
+header{
+    background-color: #c0c0c0;
+    color: #ffff; /* branco em hexadecimal*/
+    text-align: center; /*centraliza o texto*/
+
+}
+nav a{ /*nav navgation a a, de link , vou trabalhar so no link*/
+    color: blue;
+    text-decoration: none; /*tirei toda a decoraçao do texto*/
+    padding: 4px;
+}
+.bloco{ /*declaraçao da class, a class procede de "." */
+    background-color: #cccc;
+    color: black;
+    border: 1px dotted #a3a3; /* borda geral tracejada*/
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-top: 2px solid #d8d; /* borda superior solida*/
+
+
+}
